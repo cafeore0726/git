@@ -13,7 +13,7 @@ body {
 /* セクションのスタイル */
 .name, .local-initiative, .project-goal, .question-form {
     max-width: 800px;
-    margin: 20px auto;
+    margin: 20px;
     padding: 20px;
     background: #fff;
     border-radius: 8px;
@@ -76,4 +76,22 @@ h1, h2 {
     .question-form textarea, .question-form input, .question-form button {
         font-size: 14px;
     }
+}
+
+/* 表のスタイル */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+table, th, td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+}
+
+
+form {
+    margin: 20px 0;
+    display: flex;
 }
